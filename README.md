@@ -22,7 +22,7 @@ kubectl apply -f https://raw.githubusercontent.com/rancher/local-path-provisione
 kubectl patch storageclass local-path -p '{"metadata": {"annotations":{"storageclass.kubernetes.io/is-default-class":"true"}}}'
 ```
 
-## Install to Kubernetes
+## Install Traefik Ingress to Kubernetes
 
 Apply locally
 
