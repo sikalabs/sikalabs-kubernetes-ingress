@@ -41,18 +41,6 @@ subjects:
   name: traefik-ingress-controller
   namespace: kube-system
 ---
-apiVersion: v1
-kind: PersistentVolumeClaim
-metadata:
-  name: acme-data
-  namespace: kube-system
-spec:
-  accessModes:
-    - ReadWriteMany
-  resources:
-    requests:
-      storage: 1Gi
----
 kind: DaemonSet
 apiVersion: extensions/v1beta1
 metadata:
@@ -107,8 +95,7 @@ spec:
           mountPath: /acme-data
       volumes:
       - name: acme-data
-        persistentVolumeClaim:
-          claimName: acme-data
+        emptyDir: {}
 ---
 kind: Service
 apiVersion: v1
