@@ -3,7 +3,7 @@
     2019 Ondrej Sika <ondrej@ondrejsika.com>
     https://github.com/ondrejsika/kubernetes-ingress-traefik
 
-Simplest way, how to setup Ingress with Let's Encrypt certificates.
+Simple way, how to setup Ingress with Let's Encrypt certificates.
 
 
 ## Features
@@ -27,11 +27,11 @@ kubectl patch storageclass local-path -p '{"metadata": {"annotations":{"storagec
 Apply locally
 
 ```
-kubect apply -f ingress-traefik.yml
+kubectl apply -f ingress-traefik.yml
 ```
 
 or from Github's master
 
 ```
-kubect apply -f https://raw.githubusercontent.com/ondrejsika/kubernetes-ingress-traefik/master/ingress-traefik.yml
+kubectl apply -f https://raw.githubusercontent.com/ondrejsika/kubernetes-ingress-traefik/master/ingress-traefik.yml
 ```
