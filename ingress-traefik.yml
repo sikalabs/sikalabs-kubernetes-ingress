@@ -84,7 +84,7 @@ spec:
         args:
         - --metrics
         - --metrics.prometheus
-        - --metrics.prometheus.entryPoint="traefik"
+        - --metrics.prometheus.entryPoint=traefik
         - --api
         - --kubernetes
         - --logLevel=INFO
