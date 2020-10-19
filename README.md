@@ -1,7 +1,7 @@
-# Kubernetes Ingress using Traefik
+# ondrejsika-k8s-ingress (Kubernetes Ingress using Traefik)
 
     2019 Ondrej Sika <ondrej@ondrejsika.com>
-    https://github.com/ondrejsika/kubernetes-ingress-traefik
+    https://github.com/ondrejsika/ondrejsika-k8s-ingress
 
 Simple way, how to setup Ingress with Let's Encrypt certificates.
 
