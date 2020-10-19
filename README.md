@@ -16,5 +16,5 @@ kubectl apply -f ingress-traefik.yml
 or from Github's master
 
 ```
-kubectl apply -f https://raw.githubusercontent.com/ondrejsika/kubernetes-ingress-traefik/master/ingress-traefik.yml
+kubectl apply -f https://raw.githubusercontent.com/ondrejsika/ondrejsika-k8s-ingress/master/ingress-traefik.yml
 ```
