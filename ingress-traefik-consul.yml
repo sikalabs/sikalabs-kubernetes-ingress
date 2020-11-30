@@ -81,6 +81,7 @@ spec:
               add:
                 - NET_BIND_SERVICE
           args:
+            - --accesslog
             - --consul.endpoint=consul-server.consul:8500
             - --metrics
             - --metrics.prometheus

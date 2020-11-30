@@ -78,6 +78,7 @@ spec:
               add:
                 - NET_BIND_SERVICE
           args:
+            - --accesslog
             - --metrics
             - --metrics.prometheus
             - --metrics.prometheus.entryPoint=traefik
