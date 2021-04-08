@@ -102,6 +102,11 @@ spec:
           volumeMounts:
             - name: acme-data
               mountPath: /acme-data
+        - image: sikalabs/pause
+          name: pause
+          volumeMounts:
+          - name: acme-data
+            mountPath: /acme-data
       volumes:
         - name: acme-data
           emptyDir: {}
